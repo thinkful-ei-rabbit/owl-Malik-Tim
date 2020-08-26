@@ -1,0 +1,47 @@
+.participantsList {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 20vw;
+    overflow: auto;
+    height: 100%;
+    background-color: #F9F9F9;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  ​
+  .participantsList .participant {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 1.5em auto;
+  }
+  ​
+  .participantsList .participant img {
+    width: 35px;
+    height: auto;
+    border: 1px solid gray;
+    border-radius: 100%;
+    margin-left: 1em;
+  }
+  ​
+  .participantsList .participant .details {
+    margin-left: 1em;
+  }
+  ​
+  .participantsList .participant .details .status {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  ​
+  .participantsList .participant .details .status .stclr {
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+    background-color: lightgreen;
+  }
+  ​
+  .participantsList .participant .details .status .session {
+    margin-left: 0.5em;
+    color: gray;
+  }
