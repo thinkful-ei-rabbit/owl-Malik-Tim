@@ -5,11 +5,13 @@ import './Participants.css'
 export default function Participants(props){
     
     return( 
-    <section className = "participant">
+    <section className = "participantList">
+        <div className="participant">
         <img src= {props.avatar} alt= "avatar"/>
         <div className="details">
-            <h3>{props.name}</h3>
+            {props.name}
             <p value= {props.onStage}>onStage</p>
+        </div>
         </div>
     </section>
     )}

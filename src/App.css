@@ -20,3 +20,36 @@
     display: flex;
     justify-content: space-evenly;
   }
+
+  .App {
+    font-family: sans-serif;
+  }
+  ​
+  .App .sidebar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 20vw;
+    overflow: auto;
+    height: 100%;
+    background-color: #F9F9F9;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  ​
+  .App .sidebar nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+  ​
+  .App .sidebar nav .navPart,
+  .App .sidebar nav .navChat {
+    text-decoration: none;
+    cursor: pointer;
+  }
+  ​
+  .App .sidebar nav .navPartUnderline,
+  .App .sidebar nav .navChatUnderline {
+    text-decoration: underline;
+    cursor: pointer;
+  }
